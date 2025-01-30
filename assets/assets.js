@@ -1,4 +1,7 @@
 import user_image from './user-image.png';
+import dev from './dev.jpg';
+import docker from './docker.png';
+import user_image_1 from './user-image-1.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -38,6 +41,7 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
 export const assets = {
     user_image,
+    user_image_1,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -73,7 +77,9 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    docker,
+    dev
 };
 
 export const workData = [
@@ -82,16 +88,16 @@ export const workData = [
         description: 'Web Design',
         bgImage: '/work-1.png',
     },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
+    // {
+    //     title: 'Geo based app',
+    //     description: 'Mobile App',
+    //     bgImage: '/work-2.png',
+    // },
+    // {
+    //     title: 'Photography site',
+    //     description: 'Web Design',
+    //     bgImage: '/work-3.png',
+    // },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
@@ -101,17 +107,17 @@ export const workData = [
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+    { icon: assets.mobile_icon, title: 'State Management', description: 'Managing state effectively with Redux, Context API, or Zustand...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.graphics_icon, title: 'Responsive design', description: 'Ensuring your web applications look great on all devices...', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, Tailwind CSS, JavaScript, React Js' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Information Technology' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.git, assets.docker
 ];
