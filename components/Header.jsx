@@ -62,6 +62,7 @@ const Header = ({ isDarkMode }) => {
         >
           my resume <Image src={assets.download_icon} alt="" className="w-4" />
         </motion.a>
+        
       </div>
     </div>
   );
